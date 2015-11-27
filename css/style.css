@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-oct-2015, 21:41:20
+    Author     : samuel
+*/
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand {
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+}
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
+    color:#009966;
+}
+body{
+    background-image: url("http://hdwallpapersfit.com/wp-content/uploads/2015/04/dice-wallpaper-hd.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-color: #cccccc;
+}
+img{
+    width:100%;
+}
+
+.exito{
+    color: green;
+}
+
+.error{
+    color: red;
+}
+
+.valign-wrapper{
+    display:-webkit-box;
+    display:-moz-box;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-flex-align:center;
+    -ms-flex-align:center;
+    -webkit-align-items:center;
+    align-items:center
+}
+
+.fondo-dodec {
+    background-image: url("../img/dado/dodec.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 29%;
+}
+
+.borrado {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+#operacion {
+    background-color:black;
+    color:#00cc00;
+}
+
+.well{
+    background-color:#080808;
+    color:white;
+}
+
+.verde {
+    color:#009966;
+}
+
+.icono {
+    width: auto; 
+}
